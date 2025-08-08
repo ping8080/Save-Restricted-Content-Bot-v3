@@ -20,7 +20,7 @@ YTUB_COOKIES = """
 API_ID = os.getenv("API_ID", "20369373")
 API_HASH = os.getenv("API_HASH", "0d53cc7f978163fed3263be5cbb20ab0")
 BOT_TOKEN = os.getenv("BOT_TOKEN", "7922683732:AAH-eKNu9HVxoq3FNv0vq68v5gHc_76AENU")
-MONGO_DB = os.getenv("MONGO_DB", "")
+MONGO_DB = os.getenv("MONGO_DB", "mongodb+srv://arjunsharmapremium:hxUKuDFYbmeHVgq8@kingprojects.ch0qd.mongodb.net/?retryWrites=true&w=majority&appName=KingProjects")
 OWNER_ID = list(map(int, os.getenv("OWNER_ID", "7531518197", "1928404158", ).split())) # list seperated via space
 DB_NAME = os.getenv("DB_NAME", "telegram_downloader")
 STRING = os.getenv("STRING", None) # optional
@@ -34,5 +34,6 @@ FREEMIUM_LIMIT = int(os.getenv("FREEMIUM_LIMIT", "1000"))
 PREMIUM_LIMIT = int(os.getenv("PREMIUM_LIMIT", "500"))
 JOIN_LINK = os.getenv("JOIN_LINK", "https://t.me/team_spy_pro") # this link for start command message
 ADMIN_CONTACT = os.getenv("ADMIN_CONTACT", "https://t.me/username_of_admin")
+
 
 
